@@ -27,21 +27,11 @@ class _ExhibitPageState extends State<ExhibitPage> {
                 return ListView.separated(
                     itemBuilder: (context, index) {
                       return SizedBox(
-                        height: 100,
+                        height: 120,
                         child: ExhibitItem(exhibit: exhibitList[index]),
                       );
                     },
-                    // separatorBuilder: (_, __) => const SizedBox(height: 8),
-                    separatorBuilder: (builder, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Center(
-                            child: Text(exhibitList[index].title,
-                                style: const TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontWeight: FontWeight.bold))),
-                      );
-                    },
+                    separatorBuilder: (_, __) => const SizedBox(height: 8),
                     itemCount: exhibitList.length);
               } else if (snapshot.hasError) {
                 return snapshot.error as Widget;
