@@ -1,3 +1,6 @@
+//Author: Pavlo
+//Date: 01/28/2022
+
 import 'package:exhibit/exhibit_page.dart';
 import 'package:flutter/material.dart';
 

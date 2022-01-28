@@ -1,3 +1,6 @@
+//Author: Pavlo
+//Date: 01/28/2022
+//Exhibit model
 
 class Exhibit {
   String title;
@@ -17,6 +20,6 @@ class Exhibit {
   }
 
   static List<Exhibit> fromJsonList(jsonList) {
-    return jsonList.map<Exhibit>((obj)=>Exhibit.fromJson(obj)).toList();
+    return jsonList.map<Exhibit>((obj) => Exhibit.fromJson(obj)).toList();
   }
 }

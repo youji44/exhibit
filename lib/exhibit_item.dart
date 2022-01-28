@@ -1,3 +1,7 @@
+//Author: Pavlo
+//Date: 01/28/2022
+//Exhibit Item define
+
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:exhibit/exhibit_detail.dart';
 import 'package:exhibit/exhibit_model.dart';
@@ -51,7 +55,7 @@ class ExhibitItem extends StatelessWidget {
                         child: CircularProgressIndicator(),
                       ),
                       errorWidget: (context, url, error) =>
-                          const Icon(Icons.error),
+                          const Icon(Icons.error_outline),
                     ),
                   ),
                 );

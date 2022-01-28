@@ -1,3 +1,7 @@
+//Author: Pavlo
+//Date: 01/28/2022
+//Main page for Exhibit list
+
 import 'package:exhibit/exhibit_item.dart';
 import 'package:exhibit/exhibit_model.dart';
 import 'package:exhibit/exhibit_provider.dart';

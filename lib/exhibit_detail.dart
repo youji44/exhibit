@@ -1,3 +1,7 @@
+//Author: Pavlo
+//Date: 01/28/2022
+//Exhibit image view
+
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
